@@ -8,8 +8,6 @@ services:
       - .env
     networks:
       - clot_usercreate_service_default
-    depends_on:
-      - clot_usercreate_service-db-1
 
 networks:
   clot_usercreate_service_default:
